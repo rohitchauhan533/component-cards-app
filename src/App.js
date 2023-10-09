@@ -8,8 +8,8 @@ function App() {
   const [arrCopy, setArrCopy] = useState(sports);
   const [check, setCheck] = useState(false)
 
-  const handleCheckbox = (index) => {
-     console.log("it is check", index)
+  const handleCheckbox = (value, i) => {
+     console.log("it is check", value, i)
   }
 
   const handleDelete = (index) => {
